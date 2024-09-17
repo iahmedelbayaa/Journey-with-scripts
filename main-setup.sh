@@ -45,3 +45,8 @@ sudo apt install unzip -y
 sudo curl "https://releases.hashicorp.com/terraform/1.0.0/terraform_1.0.0_linux_amd64.zip" -o "terraform.zip"
 sudo unzip terraform.zip
 sudo mv terraform /usr/local/bin/
+
+
+xrandr --newmode "1440x900_60.00" 106.50 1440 1520 1672 1904 900 903 909 934 -hsync +vsync && xrandr --addmode DVI-0 "1440x900_60.00" && xrandr --output DVI-0 --mode "1440x900_60.00"
+
+
